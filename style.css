@@ -1,0 +1,123 @@
+.firstrow{
+    display:flex;
+    
+    gap:5px;
+    
+    
+    margin-top:20px;
+    margin-bottom:20px;
+    height:30px;
+    width:500px;
+    
+}
+.secondrow{
+    display:flex;
+    
+    gap:5px;
+    
+    
+    margin-top:20px;
+    margin-bottom:20px;
+    height:30px;
+    width:500px;
+
+}
+.thirdrow{
+    display:flex;
+    
+    gap:5px;
+   
+    
+    margin-top:20px; 
+    margin-bottom:20px;
+    height:30px;
+    width:500px;
+
+
+}
+.lastrow{
+    display:flex;
+    
+    gap:5px;
+    
+   
+    height:30px;
+    width:500px;
+
+
+}
+.display{
+   
+    width:440px;
+    height:60px;
+    background-color:rgb(137, 154, 137);
+    gap:30px;
+    border:1px solid white;
+    border-radius:10px;
+    
+    margin-left:40px;
+    font-weight:bold;
+    padding:5px;
+    
+
+    
+}
+.number{
+    width:50px;
+    height:40px;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:40px;
+    background-color:white;
+    border-radius:5px;
+    font-weight:bold;
+
+}
+.container{
+    margin-left:500px;
+    
+   
+    
+    border:1px solid black;
+    width:525px; 
+    height:400px;
+    padding-top:40px;
+    background-color:rgba(0, 0, 0, 0.554);
+    border-radius:30px;
+
+}
+.header{
+    display:flex;
+    margin-left:600px;
+    font-size:75px;
+    
+
+}
+.number:hover{
+    background-color:rgba(247, 99, 24, 0.861);
+    transition:0.7s;
+    font-size:20px;
+    
+}
+.container:hover{
+    background-color:rgba(57, 56, 56, 0.761)
+
+}
+#backspace{
+    background-color:rgba(40, 144, 241, 0.927)
+}
+#clear{
+    background-color:rgba(40,144,241,0.927)
+}
+.answer{
+    display:block;
+    margin-top:8px;
+    margin-left:3px;
+    
+    
+    text-align:end;
+
+}
+
